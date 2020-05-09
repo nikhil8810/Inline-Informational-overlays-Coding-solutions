@@ -1,0 +1,5 @@
+<div id="hover" onmouseover="showLayer('image')" onmouseout="hideLayer('image')"> </div>
+
+<div id="image" style="visibility: hidden;">
+  <img src="img/event_hover.png" alt="image" height="" width="">
+</div>

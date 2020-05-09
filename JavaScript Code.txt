@@ -1,0 +1,17 @@
+function showLayer(layerName, shadowLayerName)
+{
+    if (document.getElementById) // Netscape 6 and IE 5+
+    {
+        var targetElement = document.getElementById(layerName);
+        targetElement.style.visibility = 'visible';
+    }
+}
+
+function hideLayer(layerName)
+{
+   if (document.getElementById) 
+   {
+       var targetElement = document.getElementById(layerName);
+       targetElement.style.visibility = 'hidden';
+   }
+}
